@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('/src//assets/fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'sofadiOne';
+    src: url('/src//assets/fonts/SofadiOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('/src//assets/fonts/Ubuntu-Bold.ttf'),
+         url('/src//assets/fonts/Ubuntu-BoldItalic.ttf'),
+         url('/src//assets/fonts/Ubuntu-Light.ttf');
+}
+
+@font-face {
+    font-family: 'playfairDisplay';
+    src: url('/src/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'playfairItalic';
+    src: url('/src/assets/fonts/PlayfairDisplay-Italic.ttf');
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ecommerce",
+  "steps": [
+    {
+      "file": "src/component/footer.jsx",
+      "description": "My Ecommerce website footer\r\n",
+      "line": 3
+    }
+  ]
+}
