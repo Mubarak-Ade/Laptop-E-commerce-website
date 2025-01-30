@@ -37,7 +37,7 @@ function Cart() {
                             <p className='text-white font-playfair text-2xl'>${item.price}</p> 
                         </div>
                         <div className="">
-                            <input type="number" name="" id="" onChange={(e) => setQuantity(e.target.value)} value={quantity} className='p-4 text-black w-20 h-10 border-2 bg-white border-black rounded-xl' />
+                            <input type="number" name="" id="" onChange={(e) => handleQuantity(e.target.value, index)} value={quantity} className='p-4 text-black w-20 h-10 border-2 bg-white border-black rounded-xl' />
                             <p className='text-xl text-white font-roboto'>Quantity: {quantity}</p>
                         </div>
                         <p className='text-white font-playfair text-2xl'>${item.price * quantity}</p> 

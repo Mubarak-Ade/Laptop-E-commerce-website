@@ -23,12 +23,21 @@ function ProductContext({ children }) {
 	const handleCartSelect = (id) => {
 		setItemSelect(id)
 	}
+
+	const handleQuantity = (value, id) => {
+		setMyCart((items, i) => 
+			items.map((item) =>( 
+				id === i ? {...item, value} : item
+			))
+		)
+		setQuantity(value)
+	}
 	
 		console.log(myCart);
 	
 	
 		const cartProps = { AddCart, quantity, setQuantity, myCart,alertBox, setAlertBox,
-			deleteCart, selectIndex, itemSelect, handleCartSelect}
+			deleteCart, selectIndex, itemSelect, handleCartSelect, handleQuantity}
 	// const mainProps = {input,handleGetText,handleInput,showSearch,setShowSearch}
 	// const contextProps = {cartProps}
 
